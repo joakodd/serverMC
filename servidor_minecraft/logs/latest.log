@@ -1,44 +1,172 @@
-[04Jan2025 01:33:56.044] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[04Jan2025 01:33:56.046] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.5+11-LTS
-[04Jan2025 01:33:56.047] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[04Jan2025 01:33:56.135] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[04Jan2025 01:33:56.256] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/serverMC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[04Jan2025 01:33:56.541] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04Jan2025 01:33:57.329] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[04Jan2025 01:33:57.625] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[04Jan2025 01:33:57.790] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/serverMC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[04Jan2025 01:34:02.637] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
-[04Jan2025 01:34:02.638] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
-[04Jan2025 01:34:02.652] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[04Jan2025 01:34:03.442] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Jan2025 01:34:03.869] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 53.0.25 Target: 53.0.36
-[04Jan2025 01:34:04.387] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04Jan2025 01:34:06.563] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
-[04Jan2025 01:34:06.581] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
-[04Jan2025 01:34:06.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
-[04Jan2025 01:34:06.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Jan2025 01:34:06.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Jan2025 01:34:06.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Jan2025 01:34:06.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Jan2025 01:34:06.902] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Jan2025 01:34:06.943] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Jan2025 01:34:06.943] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Jan2025 01:34:06.944] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Jan2025 01:34:06.944] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Jan2025 01:34:06.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Jan2025 01:34:07.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Jan2025 01:34:09.995] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 01:34:09.995] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 01:34:09.996] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 01:34:09.996] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 01:34:09.996] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 01:34:09.997] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 01:34:10.221] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2984 ms
-[04Jan2025 01:34:10.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.268s)! For help, type "help"
-[04Jan2025 01:34:10.233] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Jan2025 01:35:10.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[04Jan2025 01:36:27.762] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joakkocn[/[::1]:57810] logged in with entity id 90 at (4.5246097953645075, 79.0, -16.010474197696897)
-[04Jan2025 01:36:27.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joakkocn joined the game
-[04Jan2025 01:36:57.838] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joakkocn lost connection: Timed out
-[04Jan2025 01:36:57.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joakkocn left the game
-[04Jan2025 01:37:57.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[18:17:50] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[18:17:52] [main/INFO]: Loading 80 mods:
+	- alternate-current 1.9.0
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- clumps 19.0.0.1
+	- entityculling 1.7.0
+	- fabric-api 0.106.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.16+b559734419
+	   |-- fabric-convention-tags-v1 2.1.0+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.9.0+83a9d31319
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	   |-- fabric-data-generation-api-v1 20.2.21+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.0+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.13+6508971219
+	   |-- fabric-registry-sync-v0 5.1.3+60c3209b19
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.0+5659912919
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.87+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.0+95bead5f19
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.0.0
+	- fishingrodfix 1.21-0.3
+	- fzzy_config 0.5.4+1.21
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- java 21
+	- lithium 0.13.1
+	- minecraft 1.21.1
+	- modernfix 5.19.3+mc1.21.1
+	- placeholder-api 2.4.1+1.21
+	- sodiumleafculling 1.0.0
+	- teamaddoners 2.0.0
+	- yet_another_config_lib_v3 3.5.0+1.21-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[18:17:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serverMC/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:17:53] [main/INFO]: Compatibility level set to JAVA_16
+[18:17:53] [main/INFO]: Compatibility level set to JAVA_18
+[18:17:53] [main/INFO]: Compatibility level set to JAVA_21
+[18:17:53] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[18:17:53] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
+[18:17:53] [main/INFO]: Applying Nashorn fix
+[18:17:54] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:17:54] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/frapi/render/AbstractBlockRenderContext (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/frapi/render/AbstractBlockRenderContext)
+[18:17:54] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.render.frapi.render.AbstractBlockRenderContext was not found mixins.sodiumleafculling.json:AbstractBlockRenderContextAccessor from mod sodiumleafculling
+[18:17:54] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[18:17:54] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.render.chunk.compile.pipeline.BlockOcclusionCache was not found mixins.sodiumleafculling.json:BlockOcclusionCacheMixin from mod sodiumleafculling
+[18:17:54] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[18:17:54] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.render.chunk.compile.pipeline.BlockRenderer was not found mixins.sodiumleafculling.json:BlockRendererMixin from mod sodiumleafculling
+[18:17:54] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions$PerformanceSettings (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions$PerformanceSettings)
+[18:17:54] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.gui.SodiumGameOptions$PerformanceSettings was not found mixins.sodiumleafculling.json:PerformanceSettingsMixin from mod sodiumleafculling
+[18:17:54] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages)
+[18:17:54] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.gui.SodiumGameOptionPages was not found mixins.sodiumleafculling.json:SodiumGameOptionPagesMixin from mod sodiumleafculling
+[18:17:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:17:57] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:17:57] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[18:17:57] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:17:58] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[18:18:02] [main/INFO]: Vanilla bootstrap took 5959 milliseconds
+[18:18:03] [main/INFO]: [STDOUT]: Team Addoners Initializing
+[18:18:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:18:03] [main/INFO]: Found new data pack fabric, loading it automatically
+[18:18:03] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
+[18:18:05] [main/INFO]: No existing world data, creating new world
+[18:18:06] [main/INFO]: Loaded 1290 recipes
+[18:18:06] [main/INFO]: Loaded 1399 advancements
+[18:18:06] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.115 ms
+[18:18:06] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[18:18:06] [Server thread/INFO]: Loading properties
+[18:18:06] [Server thread/INFO]: Default game type: SURVIVAL
+[18:18:06] [Server thread/INFO]: Generating keypair
+[18:18:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:18:07] [Server thread/INFO]: Using epoll channel type
+[18:18:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:18:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:18:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:18:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:18:07] [Server thread/INFO]: Preparing level "world"
+[18:18:07] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[18:18:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:18:17] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[18:18:18] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[18:18:18] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[18:18:19] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[18:18:19] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[18:18:20] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[18:18:20] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[18:18:21] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[18:18:21] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[18:18:22] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[18:18:23] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[18:18:23] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[18:18:23] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[18:18:24] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[18:18:24] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[18:18:25] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[18:18:25] [Server thread/INFO]: Time elapsed: 7896 ms
+[18:18:25] [Server thread/INFO]: Done (18.527s)! For help, type "help"
+[18:18:25] [Server thread/WARN]: Dedicated server took 40.315 seconds to load
+[18:22:15] [Server thread/INFO]: joakkocn[/[0:0:0:0:0:0:0:1%0]:56206] logged in with entity id 24 at (-1.5, 106.0, 5.5)
+[18:22:15] [Server thread/INFO]: joakkocn joined the game
+[18:23:01] [Server thread/INFO]: [joakkocn: Set own game mode to Creative Mode]
+[18:23:03] [Server thread/WARN]: joakkocn moved too quickly! -9.526749054227814,0.9004529971890776,-3.9665852097160723
+[18:23:13] [Server thread/INFO]: Locating element minecraft:village_snowy took 648 ms
+[18:23:15] [Server thread/INFO]: [joakkocn: Teleported joakkocn to -895.500000, 110.368326, -335.500000]
+[18:23:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2241ms or 44 ticks behind
+[18:23:34] [Server thread/INFO]: Villager class_1646['Villager'/402, l='ServerLevel[world]', x=-898.63, y=70.00, z=-369.28] died, message: 'Villager suffocated in a wall'
+[18:23:34] [Server thread/INFO]: Villager class_1646['Villager'/389, l='ServerLevel[world]', x=-888.06, y=65.00, z=-347.70] died, message: 'Villager suffocated in a wall'
+[18:23:37] [Server thread/INFO]: Locating element minecraft:village_plains took 523 ms
+[18:23:39] [Server thread/INFO]: [joakkocn: Teleported joakkocn to -927.500000, 63.000000, -1327.500000]
+[18:23:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2368ms or 47 ticks behind
+[18:24:14] [Server thread/INFO]: [joakkocn: Set the world spawn point to -920, 70, -1343 [0.0]]
+[18:24:18] [Server thread/INFO]: [joakkocn: Set own game mode to Survival Mode]
