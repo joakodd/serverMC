@@ -197,3 +197,12 @@
 [00:22:08] [Server thread/INFO]: ferraf was slain by Zombie
 [00:22:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-922, y=64, z=-1342}
 [00:22:30] [Server thread/INFO]: ferraf has made the advancement [Monster Hunter]
+[00:30:48] [Server thread/INFO]: joakkocn was slain by Zombie
+[00:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-953, y=71, z=-1339} class_2338{x=-915, y=62, z=-1327}
+[00:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-953, y=71, z=-1339} class_2338{x=-916, y=62, z=-1327}
+[00:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-918, y=63, z=-1326} class_2338{x=-919, y=62, z=-1327}
+[00:31:59] [Server thread/INFO]: joakkocn has made the advancement [Stone Age]
+[00:33:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-918, y=63, z=-1326} class_2338{x=-906, y=65, z=-1358}
+[00:33:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-918, y=63, z=-1326} class_2338{x=-906, y=64, z=-1358}
+[00:38:08] [Server thread/INFO]: ferraf lost connection: Timed out
+[00:38:08] [Server thread/INFO]: ferraf left the game
